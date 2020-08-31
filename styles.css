@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background: url("https://searchengineland.com/figz/wp-content/seloads/2015/01/future-search-box-ss-1920-800x450.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+}
+
+h1 {
+  font-size:  4rem;
+}
+.heading :hover{
+  color: grey;
+}
+
+.search-box input[type="text"]{
+  width: 20%;
+  padding: 10px;
+  padding-right: 60px;
+  font-size: 1.5rem;
+  background: rgba(0,0,0,0.3);
+  border:2px solid;
+  border-radius: 10px;
+  outline: none;
+}
+
+.fa-search{
+  position: absolute;
+  top: 33%;
+  right: 498px;
+}
